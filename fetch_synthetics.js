@@ -60,13 +60,6 @@ while (pagenation)
 
      let entity = syntheticsJsonContent.data.actor.entitySearch.results.entities[i];
      tools.csvBody(csvFile, entity);
- //    var monitorName = entity.name;
- //    var account = entity.account.name;
- //    var monitorStatus = entity.monitorSummary.status;
- //    var successRate = entity.monitorSummary.successRate;
- //    var locations = (entity.monitorSummary.locationsFailing || 0) + '/' + (entity.monitorSummary.locationsRunning || 0);
- //    var period = entity.period;
- //    var monitorType = entity.monitorType;
 
      // console.log('count = ' + count++); 
 
